@@ -1,0 +1,186 @@
+.main-container{
+  height: 100vh;
+  width: 100vw;
+}
+.btn{
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0);
+  border-color: white;
+  color: white;
+  text-transform: uppercase;
+  &:hover{
+    background-color: white;
+    color: black;
+    border: none;
+  }
+}
+.home-container{
+  display: grid;
+  align-items: center;
+  padding: 10vh 3vw 10vh 10vw;
+  grid-template-columns: 40% 60%;
+  grid-template-rows: 100%;
+  align-items: center;
+  .welcome-container{
+    color: white;
+    font-size: 3em;
+    span{
+      text-transform: uppercase;
+      font-size: 3.1rem;
+      font-weight: bold;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+  }
+  .about-container{
+    text-transform: uppercase;
+    text-align: end;
+    color: white;
+    font-size: 7.6rem;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+}
+
+.algo-container{
+  padding: 20px;
+  .sorting-algo-container{
+    background-color: rgb(255, 201, 102);
+    padding: 20px;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    span{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 2.1em;
+    }
+    .divbtn{
+      text-decoration: none;
+      color: black;
+      padding: 20px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-weight: bold;
+      word-spacing: 4px;
+    }
+    .bubble-sort{
+      background-color: lightslategray;
+    }
+    .quick-sort{
+      background-color: lightseagreen;
+    }
+    .merge-sort{
+      background-color: lightgreen;
+    }
+    .selection-sort{
+      background-color: lightblue;
+    }
+    .insertion-sort{
+      background-color: lightcoral;
+    }
+
+  }
+}
+
+.playground-container{
+  height: 100vh;
+  width:100vw;
+  display: flex;
+  .left{
+    width: 20vw;
+    padding: 1vw;
+    p{
+      text-transform: capitalize;
+      color: white;
+    }
+    $thumbsize : 15px;
+    input {
+      appearance: none;
+      width: 100%;
+      height: 5px;
+      background: #ffffff;
+      border-radius: 10px;
+      outline: none;
+    }
+    @mixin thumbProperty{
+      width: $thumbsize;
+      height: $thumbsize;
+      border: none;
+      background: #ff7b00;
+      clip-path: polygon(0 0, 50% 30%, 100% 0, 100% 70%, 50% 100%, 0 70%);
+      cursor: pointer;
+    }
+    input::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      @include thumbProperty();
+    }
+    input::-moz-range-thumb {
+      @include thumbProperty();
+    }
+    .smallbtn{
+      margin-top: 15px;
+      width: 100%;
+    }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f1f1f1;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+      span {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        &:hover {background-color: #e06d6d;}
+      }
+    }
+    .dropdown:hover .dropdown-content {display: block;}
+    .menu-container{
+      margin-top: 5px;
+      .divbtn{
+        text-decoration: none;
+        color: black;
+        padding: 20px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bold;
+        word-spacing: 4px;
+      }
+      .bubble-sort{
+        background-color: lightslategray;
+      }
+      .quick-sort{
+        background-color: lightseagreen;
+      }
+      .merge-sort{
+        background-color: lightgreen;
+      }
+      .selection-sort{
+        background-color: lightblue;
+      }
+      .insertion-sort{
+        background-color: lightcoral;
+      }
+    }
+  }
+  .right{
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    .bar{
+      background-color: orange;
+      margin: 0px 0.08vw;
+      overflow: hidden;
+      text-align: center;
+    }
+    .compare{
+      background-color: aqua;
+    }
+  }
+}
