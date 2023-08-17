@@ -1,16 +1,17 @@
 import './App.scss';
-import Home from './Components/Home';
-import Algorithms from "./Components/Algorithms"
+import Home from './pages/home/Home';
+import Searching from "./pages/searching/Searching";
 import { Routes,Route } from 'react-router-dom';
-import Playground from './Components/Playground';
+import Sorting from './pages/sorting/Sorting';
 
 function App() {
   return (
     <div className='main-container'>
         <Routes>
         <Route path="/" Component={Home} />
-        <Route path="/algorithms" Component={Algorithms}/>  
-        <Route path="/playground" Component={Playground}/>  
+        <Route path="/searching" Component={Searching}/>  
+        <Route path="/sorting" Component={Sorting}/>  
+        <Route path="/board" Component={Sorting}/> 
         </Routes>
     </div>
   );
