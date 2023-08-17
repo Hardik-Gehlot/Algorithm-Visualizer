@@ -1,70 +1,91 @@
-# Getting Started with Create React App
+# Algorithm Visualizer Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Algorithm Visualizer project! This repository contains a tool for visualizing various sorting and searching algorithms. Whether you're a student learning about algorithms or a curious developer, this project aims to provide an intuitive way to understand how these algorithms work step by step.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Introduction](#introduction)
+- [Features](#features)
+- [Algorithms](#algorithms)
+- [Getting Started](#getting-started)
+  - [Installation](#installation)
+  - [Usage](#usage)
+- [Contributing](#contributing)
 
-### `npm start`
+## Introduction
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The Algorithm Visualizer project is designed to help users grasp the inner workings of sorting and searching algorithms through interactive visualizations. With easy-to-follow animations and explanations, you can observe how algorithms like Bubble Sort, Quick Sort, Merge Sort, Insertion Sort, Selection Sort, Linear Search, and Binary Search operate in real-time.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- Visualize sorting and searching algorithms step by step.
+- Choose different array sizes for algorithms.
+- Adjust visualization speed to observe details at your pace.
+- Clearly understand how data gets manipulated during algorithm execution.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Algorithms
 
-### `npm run build`
+This project currently supports the following algorithms:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Bubble Sort
+- Quick Sort
+- Merge Sort
+- Insertion Sort
+- Selection Sort
+- Linear Search
+- Binary Search
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Each algorithm visualization includes explanations of the algorithm's logic and the step-by-step progression, making it an ideal educational resource for learners.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Getting Started
 
-### `npm run eject`
+### Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Clone this repository to your local machine using:
+```bash
+git clone https://github.com/Hardik-Gehlot/Algorithm-Visualizer.git
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Navigate to the project directory:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+cd algorithm-visualizer
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. Set up a local development environment with the necessary dependencies.
 
-## Learn More
+### Usage
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Open the project in your preferred code editor or IDE.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+2. Run the application and navigate to the visualization page.
 
-### Code Splitting
+3. Choose the algorithm you'd like to visualize and select the array size.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+4. Adjust the visualization speed to see visualization at your pace.
 
-### Analyzing the Bundle Size
+5. Experiment with changing array sizes to see how the algorithm behaves with different data.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Contributing
 
-### Making a Progressive Web App
+Contributions to this project are welcome and encouraged! If you want to add more algorithms, improve existing visualizations, enhance documentation, or fix issues, please follow these steps:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+1. Fork the repository.
 
-### Advanced Configuration
+2. Create a new branch for your feature or bug fix:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```bash
+git checkout -b feature/your-feature-name
+```
 
-### Deployment
+3. Make your changes and commit them with descriptive commit messages.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+4. Push your changes to your forked repository.
 
-### `npm run build` fails to minify
+5. Create a pull request from your branch to the `main` branch of this repository.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Please ensure that your code follows the project's coding standards and practices.
+
+Feel free to reach out to us at [your-email@example.com](mailto:hardikgehlot2303@gmail.com) with any questions or suggestions. We hope this tool helps you better understand sorting and searching algorithms!
+
+Happy visualizing!
